@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,22 +13,28 @@
 
 <body>
     <header>
-        <nav>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>Save the koala</p>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class=" list-inline hidden-sm hidden-xs">
-                            <li><a href="#">Foundation</a></li>
-                            <li><a href="#">Koalas</a></li>
-                            <li><a href="#">Donate</a></li>
-                        </ul>
-                    </div>
+
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-            </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Pandas</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </div>
         </nav>
+
         <div class="row parent">
             <div class="welcome text-left col-md-6 pull-left ">
                 <h1>Save the Koala</h1>
@@ -72,23 +80,23 @@
         </div>
     </section>
     <section id="easy-help">
-        <div class="row flex-parent">
-            <div class="col-md-6 ">
+        <div class="row">
+            <div class="col-md-6">
                 <p>EASY HELP</p>
                 <h1>Save Koalas From Possible Extinction!</h1>
                 <p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly
                     80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land
-                    and almost none is protected. -->
+                    and almost none is protected.
                 </p>
                 <button type="button" class="btn boton btn-success colorbtn">Read More</button>
             </div>
-            <div class="col-md-6  flex-child">
-                <img src="img/cosita.jpg" class="image2" alt="easy-help">
+            <div class="col-md-6">
+                <img src="img/cosita.jpg" class="img-responsive image2" alt="easy-help">
             </div>
         </div>
     </section>
-    <section id="section3" class="sec3Parent">
-        <div class="sec3 text-left pull-rigth ">
+    <section id="section3" class="parent">
+        <div class="welcome text-right col-md-6 pull-right">
             <p>HELP KOALAS</p>
             <h4>“No Tree... No Me”</h4>
             <p>Dick Marks, AKF’s creative supporter</p>
@@ -150,7 +158,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <h5>COMPANIES</h5>
-                <div class="precios" >
+                <div class="precios">
                     <span style="font-size:21px" class="up">$<span style="font-size:50px">59 <span style="font-size:21px">/AUD</span>                    </span>
                     </span>
                 </div>
@@ -198,7 +206,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

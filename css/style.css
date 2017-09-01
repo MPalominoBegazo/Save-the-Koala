@@ -23,8 +23,6 @@ header nav{
 
 header nav ul{
     line-height: 70px;
-    text-align: right;
-    padding-right: 80px;
     color: white;
     
 }
@@ -72,7 +70,11 @@ header nav p{
     flex-direction: column;
 }
 
-
+.txt-fixed {
+    position:absolute;
+    top:45%;
+    left:45%;
+}
 .textColor{
     color: #A89F68;
     font-size: 30px;
@@ -100,8 +102,7 @@ a{
     color: #41521F;
 }
 .image2{
-    width: 500px;
-    height: 281px;
+
     border: 5px solid white;
 }
 
@@ -118,15 +119,9 @@ a{
     position: relative;
 }
 
-.sec3Parent{
-    display: flex;
-    flex-direction: column;
-}
 .sec3{
     position: relative;
     color: white;
-    align-items: center;
-    justify-content: center;
     margin-top: 40px;
     margin-left: 700px;
 }
@@ -201,4 +196,30 @@ footer h4{
 
 .footerLink{
     color: #A89F68; 
+}
+
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
 }
